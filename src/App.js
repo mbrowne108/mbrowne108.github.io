@@ -6,12 +6,11 @@ import { Route, Routes } from 'react-router-dom';
 import NavBar from './Components/NavBar.js'
 import Portfolio from './Pages/Portfolio.js'
 import About from './Pages/About.js'
-import Resume from './Pages/Resume.js'
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Matt Browne</h1>
+    <div className="container">
       <NavBar />
       <Routes>
         <Route path="/" element={<About />} />
