@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import resume from '../Images/resume.pdf'
 
 function NavBar() {
   return (
@@ -12,7 +13,7 @@ function NavBar() {
                 <Link to='/portfolio'>Portfolio</Link>
             </li>
             <li>
-                <Link to='/resume'>Resume</Link>
+                <a href={resume} target="_blank">Resume</a>
             </li>
         </ul>
     </nav>

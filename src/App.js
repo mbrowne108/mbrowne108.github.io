@@ -3,9 +3,10 @@ import './App.css';
 import 'react-router-dom'
 import { Route, Routes } from 'react-router-dom';
 
+import NavBar from './Components/NavBar.js'
 import Portfolio from './Pages/Portfolio.js'
 import About from './Pages/About.js'
-import NavBar from './Components/NavBar.js'
+import Resume from './Pages/Resume.js'
 
 function App() {
   return (
@@ -15,7 +16,6 @@ function App() {
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/resume" element={<Portfolio />} />
       </Routes>
     </div>
   );
