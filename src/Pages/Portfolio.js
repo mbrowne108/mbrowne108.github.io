@@ -7,7 +7,7 @@ function Portfolio() {
   return (
     <>
       <div className="row">
-        <h1 className='text-center mt-3'>Portfolio</h1>
+        <h1 className='m-3'>Portfolio</h1>
         <div className='col m-1 p-1 card'>
           <img className='card-img-top' src={atlas} alt='Atlas'/>
           <div className='card-body text-center'>
