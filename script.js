@@ -34,7 +34,7 @@ ctx.fillText('Technical Skills', adjustX, 300)
 ctx.font = "24px trebuchet ms"
 ctx.fillText('JavaScript, React, Ruby on Rails, HTML, CSS, Bootstrap, SQL, Postgres, Weird Particle Effects', adjustX, 324) 
 
-const textCoords = ctx.getImageData(0, 0, canvas.width, canvas.height)
+const textCoords = ctx.getImageData(0, 0, canvas.width - canvas.width / 2.5, canvas.height - canvas.height / 3)
 
 class Particle {
     constructor(x, y){
