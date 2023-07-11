@@ -10,8 +10,9 @@ body {
     overflow: hidden;
 }
 
-#projects {
+#about {
     background: rgb(28, 111, 145);
+    color: antiquewhite;
     padding-bottom: 70px;
     overflow: hidden; 
 }
